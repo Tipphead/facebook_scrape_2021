@@ -26,7 +26,10 @@
  
 ## Feel free to modify the code to your will!  In order to have the program run from the start, I would suggest:
  * variable1 = _log_in(user_name, password, page_to_scrape)
+  * variable1 would be your browser/driver
  * list1, list2 = _find_posts(browser, numOfPost)
+  * list1 would be the list to contain dates of posts
+  * list2 would be the list to contain comments
  
  
  
