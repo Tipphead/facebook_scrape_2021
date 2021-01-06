@@ -72,12 +72,12 @@ def _find_posts(browser, numOfPost):
             except:
                 print("Post ", i, ": No comments2")
             #began organizing comments within comments
-            for i in range(len(soup1.select("[data-sigil='comment-body']"))):
-                try:
-                    if (soup1.select("[data-sigil='comment-body']")[i].find('a').name == 'a'):
-                        comment_list[0][i] = comment_list[0][i].replace(comment_list[0][i], i, + comment_list[0][i])
-                except:
-                    continue
+            #for i in range(len(soup1.select("[data-sigil='comment-body']"))):
+            #    try:
+            #        if (soup1.select("[data-sigil='comment-body']")[i].find('a').name == 'a'):
+            #            comment_list[0][i] = comment_list[0][i].replace(comment_list[0][i], i, + comment_list[0][i])
+            #    except:
+            #        continue
             if (browser.current_url != "https://m.facebook.com/" + page_to_scrape):
                 browser.back()
                 time.sleep(1)       
