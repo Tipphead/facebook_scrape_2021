@@ -36,5 +36,6 @@
  * It is my understanding that it is against Facebook Terms of Service to scrape data on users without their consent.  That is why I did not focus on saving user names.  Also, the post text was not scraped because for my particular project, it was not information that I was seeking.  If you have any questions, feel free to comment here and I will do my best to assist you.  This code works with Facebook as of 1/6/2021.
 
 
-
+# IF YOU SEE YOUR CODE HERE:
+  I apologize for not citing you.  I gathered information from a number of sources.  If you would like to be noted as a contributor, please contact me.
 
