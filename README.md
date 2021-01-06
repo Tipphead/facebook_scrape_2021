@@ -14,6 +14,7 @@
  * Scrape dates of comments
  * Scrape comments beyond ~85 (There is a 'View More Comments' button that must be clicked)
 
+# Methods
 ### _log_in(user_name, password, page_to_scrape):
  * Method to login to Facebook
  * Provide YOUR user name and password
